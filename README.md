@@ -50,6 +50,7 @@ environment.systemPackages = with pkgs; [
 ];
 ```
 And here are the settings I used manually modified:
+
 Settings > Multitasking > Dynamic Workspaces (instead of the default fixed number of 4)
 
 Dash to dock: https://extensions.gnome.org/extension/307/dash-to-dock/
