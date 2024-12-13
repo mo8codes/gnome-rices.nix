@@ -3,8 +3,13 @@ Two GNOME rices on NixOS Greyscale MacBook Pro inspired and Kanojo No Carrera in
 
 ![mbp](scrots/mbp.png)
 ![carrera](scrots/carrera.png)
+To have firefox like this in "fullscreen mode" but not take up the full screen go to
+about:config search for widgets and change the only option this one:
+full-screen-api.ignore-widgets 
+to True
 ![carrera2](scrots/carrera2.png)
 More wallpapers available in "papes" folder.
+
 ## Instructions
 
 Remove 
@@ -60,10 +65,10 @@ Transparent Top Bar: https://extensions.gnome.org/extension/3960/transparent-top
 
 
 Oh-my-posh theme is a new file you have to make:
-/home/mo/.config/fish/config.fish
+```/home/mo/.config/fish/config.fish```
 and
-/home/mo/.poshthemes/themename.omp.json
-The themes can be downloaded [here](https://ohmyposh.dev/docs/themes) or to get the traffic lights one copy it from this repo but it is a WIP though it currently works okay. (Path is not very readable)
+```/home/mo/.poshthemes/themename.omp.json```
+Themes can be downloaded [here](https://ohmyposh.dev/docs/themes) or to get the traffic lights one copy it from this repo but it is a WIP though it currently works okay. (Path is not very readable)
 ![omp](scrots/omp.png)
 
 Frequently Used Commands:
