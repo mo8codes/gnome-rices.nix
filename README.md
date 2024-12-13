@@ -8,7 +8,10 @@ about:config search for widgets and change the only option this one:
 full-screen-api.ignore-widgets 
 to True
 ![carrera2](scrots/carrera2.png)
-More wallpapers available in "papes" folder.
+Wallpapers available in "papes" folder.
+![cat](papes/cat.png)
+![kanojo_no_carrera](papes/kanojo_no_carrera.png)
+![lain](papes/lain.png)
 
 ## Instructions
 
