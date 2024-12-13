@@ -9,8 +9,8 @@ full-screen-api.ignore-widgets
 to True
 ![carrera2](scrots/carrera2.png)
 Wallpapers available in "papes" folder.
-![cat](papes/cat.png)
-![kanojo_no_carrera](papes/kanojo_no_carrera.png)
+![cat](papes/cat.jpg)
+![kanojo_no_carrera](papes/kanojo_no_carrera.jpg)
 ![lain](papes/lain.png)
 
 ## Instructions
