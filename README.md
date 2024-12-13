@@ -1,18 +1,18 @@
 # gnome-rices.nix
 Two GNOME rices on NixOS Greyscale MacBook Pro inspired and Kanojo No Carrera inspired. The only difference is the background and oh-my-posh theme.
 
-![carrera2](scrots/carrera2.png)
-![mbp](scrots/mbp.png)
-![carrera](scrots/carrera.png)
+![carrera2image](scrots/carrera2.png)
+![mbpimage](scrots/mbp.png)
+![carreraimage](scrots/carrera.png)
 To have firefox like this in "fullscreen mode" but not take up the full screen go to
 about:config search for widgets and change the only option this one:
 full-screen-api.ignore-widgets 
 to True
 
 Wallpapers available in "papes" folder.
-![cat](papes/cat.jpg)
-![kanojo_no_carrera](papes/kanojo_no_carrera.jpg)
-![lain](papes/lain.png)
+![catimage](papes/cat.jpg)
+![kanojo_no_carreraimage](papes/kanojo_no_carrera.jpg)
+![lainimage](papes/lain.png)
 
 ## Instructions
 
