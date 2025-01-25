@@ -40,45 +40,59 @@
 
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
+  
   # Packages to install:
   environment.systemPackages = with pkgs; [
-  pipes
-  git
-  librewolf
-  keepassxc
-  helix
-  #jetbrains.pycharm-community-bin
-  jetbrains.rust-rover
-  jetbrains.clion
-  #jetbrains.webstorm
-  wget
-  vscode
-  authenticator
-  calibre
-  krita
-  anki
+
+  # 
+  librewolf # Web browser
+  calibre # Kindle book manager
+  keepassxc # Password manager
+  authenticator # 2FA code generator
+  anki # Flashcards
+  libreoffice-qt6-fresh # Office alternative
+  qbittorrent # Torrent client
+  waydroid # Android Emulator
+
+  # Temp
+  zim # Local wiki
+  joplin-desktop # Markdown
+  qownnotes # Markdown
+
+  # Programming
+  ntfs3g # For accessing NTFS drives (Windows formatted)
   gcc
-  #virtualbox
-  blender
+  git  
+  wget
+  curl
+  racket
+  python3Full
+  vscodium
+  helix
+
+  # Communication
   slack
   discord
+  
+  # CAD / 3D Printing / Art
+  blender
   bambu-studio
-  #lmstudio
-  qbittorrent
-  waydroid
-  rustup #$rustup install stable
+  krita  
+
+  # Terminal
   fish
-  pkgs.oh-my-posh
-  nerdfetch
-  fastfetch
+  oh-my-posh
+
+  # Fonts
+  corefonts
   nerd-fonts.ubuntu-sans
+
   # GNOME Extensions:
-  pkgs.gnomeExtensions.dash-to-dock
-  #pkgs.gnomeExtensions.vitals
-  pkgs.gnomeExtensions.tiling-assistant
-  pkgs.gnomeExtensions.weeks-start-on-monday-again
-  #pkgs.gnomeExtensions.appindicator
+  gnomeExtensions.dash-to-dock
+  gnomeExtensions.vitals
+  gnomeExtensions.tiling-assistant
+  gnomeExtensions.weeks-start-on-monday-again
+  gnomeExtensions.appindicator
   ];
 
   # GNOME packages to NOT install.
@@ -104,7 +118,7 @@
   services.tailscale.enable = true;
   virtualisation.waydroid.enable = true;
   # services.openssh.enable = true;
-  
+  services.tailscale.useRoutingFeatures = "client";
   # Allows dconf settings in home.nix (GNOME Extensions)
   programs.dconf.enable = true;
   
